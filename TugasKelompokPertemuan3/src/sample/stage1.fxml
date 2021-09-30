@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Button layoutX="17.0" layoutY="28.0" mnemonicParsing="false" onAction="#submitData" prefHeight="25.0" prefWidth="570.0" style="-fx-background-color: #6558F5;" text="Masukkan Data" />
+      <TableView fx:id="tableStudent" layoutX="16.0" layoutY="69.0" prefHeight="200.0" prefWidth="570.0">
+        <columns>
+          <TableColumn fx:id="columnNama" prefWidth="131.0" text="Nama Siswa" />
+          <TableColumn fx:id="columnKAT" prefWidth="104.0" text="KAT" />
+            <TableColumn fx:id="columnUTS" prefWidth="110.0" text="UTS" />
+            <TableColumn fx:id="columnUAS" prefWidth="99.0" text="UAS" />
+            <TableColumn fx:id="columnRataRata" prefWidth="125.0" text="NA" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>
